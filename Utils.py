@@ -2,9 +2,6 @@
 # coding: utf-8
 '''
 Last update: 21.01.22. by KS.Kwon
-
-[21.01.22.]
-- Added protein data 'residue_names' in protein.npy files
 '''
 
 import os
@@ -32,17 +29,6 @@ def input_list_parsing(f_input_list, pocket_dir, ligand_dir):
         label = line[2]
         smiles = line[3]
         input_list.append([f_poc, f_lig, label, smiles])
-    
-    return input_list
-
-
-def AE_input_parsing(f_input_list, pocket_dir):
-    Fopen = open(f_input_list)
-    input_list = []
-    for line in Fopen:
-        line = line.rstrip()
-        filepath = os.path.join(pocket_dir, f'{line}.npy')
-        input_list.append(filepath)
     
     return input_list
 
