@@ -3,12 +3,6 @@
 
 '''
 Last update: 20.10.23. by KS.Kwon
-
-[20.10.]
-[20.10.19.]
-- 기능 함수화
-
-To do [KS.Kwon] if we want to adjust the protein class to produce input data, we have to consider two cases. First, PDB data within the protein class and Second, PDB data without the protein class.
 '''
 
 import os
