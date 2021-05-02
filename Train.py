@@ -4,10 +4,6 @@
 Last update: 21.03.13. by KS.Kwon
 
 [21.03.13.]
-- Input data
-    - Protein:  PDB_extract_v11
-    - Ligand:   AILION_v2
-
 - Model structure
     - Graph layer:                  MPNN
         - Protein layer:            1
